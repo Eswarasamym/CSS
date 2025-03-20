@@ -1,0 +1,44 @@
+*{
+    font-style: italic;   
+}
+.cont{
+    border-style: solid;
+    border-radius: "10px";
+    border-color: black;
+    background-color: rgb(138, 28, 77);
+}
+#haed1{
+    color: aquamarine;
+}
+#head2{
+    color: green;
+}
+#heading1{
+    color: blueviolet;
+}
+#heading2{
+    color: aqua;
+    
+}
+
+#section1{
+    color: rgb(166, 237, 211);
+}
+#section2{
+    background-color: green;
+}
+
+#section3{
+    color: rgb(77, 64, 101);
+}
+#head3{
+    color:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              rgb(38, 103, 46);
+}
+.test2{
+    background-color: rgb(0, 162, 255);
+}
+#para1,h3,h4{
+   
+    color: rgb(50, 40, 47);
+    text-align: center;
+}

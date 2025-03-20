@@ -1,0 +1,124 @@
+body{
+    font-style: italic;
+}
+.con1{
+    background-color: rgb(173, 115, 39);
+}
+.con2{
+    background-color: aquamarine;
+}
+/*! 1.descendant selector*/
+           /*! select a child and grand child the all the elment */
+.con1 h1{
+    color: red;
+}
+/* ! direct child selector*/
+
+             /*! select a child only */
+.con2 > h1{
+    color: green;
+}
+
+
+.section1 > #btn{
+    background-color: red;
+
+}
+
+/* !pesudo class */
+
+
+/* ! 1.hover   */
+
+
+.section1 >#btn:hover{
+    background-color: green;
+}
+.cont4{
+    height: 200px;
+    width: 250px;
+    background-color: yellow;
+}
+.cont4:hover{
+    background-color: blue;
+}
+.section1  #btn2{
+    background-color: brown;
+}
+.section1 > #btn2:active{
+    background-color: pink;
+
+}
+
+
+/*  !N-th -Child*/
+
+ul > li:nth-child(2n+1)
+{
+    
+    background-color: pink;
+}
+
+/*  ! pesudo element selector */
+
+.con5 > p::first-letter{
+    color: aqua;
+    font-size: 50px;
+}
+.con5 >p::first-line{
+    color: rgb(205, 57, 82);
+}
+
+.con5> p::selection{
+    background-color: lightgreen;
+    color: rgb(255, 255, 255);
+}
+
+
+.con6{
+    background-color: green;
+    height: 300px;
+    width: 400px;
+}
+.con6 > h1::after{
+    content: "***";
+}
+.con6 >h1::before{
+    content: "***";
+}
+
+
+.con6>ol>li:nth-child(2n)::marker
+{
+    
+    color: red;
+}
+
+/* !atrribute selector */
+
+form > input[type="email"]{
+    background-color: red;
+
+
+}
+
+a[target="_self"]
+{
+    color: green;
+
+}
+/* ! Pseduo class selector
+
+
+!<?:hover-->
+t !he :hover pseudo class applies when the user keeps mouse cursor on the element
+
+
+:active
+      
+      the active pseduo -class applies duringthe period in in which
+       the element is being actived (e.g, between the times the user 
+       presses the mouse button and releases it).
+*/
+
+

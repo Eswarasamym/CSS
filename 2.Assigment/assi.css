@@ -1,0 +1,20 @@
+.name1,.name2,.name3,.name4,.name5,.name6{
+    color: red;
+}
+
+.t1,.t2,.t3,.t4,.t5{
+    
+    border-style: solid;
+    border-radius: "10px";
+    border-color: rgb(213, 84, 73);
+    background-color: lightcoral;
+}
+.t1 p{
+    color: rgb(32, 179, 32) ;
+}
+.t6 {
+    display: inline;
+}
+
+
+

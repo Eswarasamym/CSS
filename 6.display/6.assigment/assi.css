@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.all{
+    width: 350px;
+    height: auto;
+    background-color: black;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+  
+.img >img{
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20px;
+    
+    
+    
+    
+}
+.name{
+   margin: 5px;
+   
+}
+.name > h1{
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+.name > #loc{
+    color: yellow;
+    text-align: center;
+    margin: 10px;
+}
+.name > #play{
+    color: white;
+    text-align: center;
+    
+}
+
+
+.con2>button{
+
+    background-color: rgb(72, 124, 141);
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.con2>button:hover{
+    background-color: rgba(132, 75, 225, 0.331);
+    color: white;
+    cursor: grab;
+}
+#b5>a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}

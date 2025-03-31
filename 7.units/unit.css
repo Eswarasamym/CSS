@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.con1{
+    background-color: aqua;
+    height: 100%;
+    width: 80vw;
+}
+.con2{
+    height: 300px;
+    border-color: red;
+    width: 400px;
+}
+.con2 > .box{
+    height: 50%;
+    width: 50%;
+    background-color: blueviolet;
+}

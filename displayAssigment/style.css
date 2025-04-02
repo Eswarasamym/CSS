@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.outer>.inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px; 
+}
+
+.inner>.left{
+    padding-top: 50px;
+    height: 550px;
+    width: 350px;
+    border: 2px solid rgb(148, 42, 42);
+    background: linear-gradient(to right , rgb(174, 30, 174),orange );
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all  ease-in-out;
+    
+       
+}
+
+
+.inner>.center{
+    padding-top: 50px;
+    height: 550px;
+    width: 350px;
+    border: 2px solid rgb(148, 42, 42);
+    background: linear-gradient(to right , rgb(174, 30, 174),orange );
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all  ease-in-out;
+    
+}
+.inner>.right{
+    padding-top: 50px;
+    height: 550px;
+    width: 350px;
+    border: 2px solid rgb(148, 42, 42);
+    background: linear-gradient(to right , rgb(174, 30, 174),orange );
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all  ease-in-out;
+    
+}
+button{
+    background-color: rgb(78, 203, 193);
+    height: 40px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 20px;
+}
+ img{
+
+    border-radius: 50%;
+   
+}
+h1{
+    color:  white;
+    padding: 5px;
+}
+p{
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+
+}
+#para{
+    color: white;
+    font-style: italic;
+}
+.left:hover,.right:hover,.center:hover{
+    
+    transform: rotate(5deg);
+}
+button:hover{
+    cursor: pointer;
+}

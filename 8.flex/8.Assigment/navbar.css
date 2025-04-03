@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.logo{
+    margin: 10px;
+}
+.center > ul{
+    display: flex; 
+}
+.center > ul >li{
+    margin: 10px;
+    list-style: none;
+    margin-right: 20px;
+    font-size: 25px;
+
+    
+
+}
+span{
+    color: red;
+}
+h2{
+    color: coral;
+}
+.button1{
+    background-color: blue;
+    padding: 10px;
+    
+    width: 90px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+    border: 2px solid blue;
+}
+.right{
+    margin-right: 5px;
+}
+.button2{
+    
+    padding: 10px;
+    margin: 10px;
+    width: 90pxpx;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    border: 2px solid blue;
+    box-shadow: 2px 4px 8px black;
+    cursor: pointer;
+    color: blue;
+    
+
+}

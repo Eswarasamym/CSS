@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.outer{
+display: flex;
+justify-content: center;
+padding: 20px;
+text-align: center;
+align-items: center;
+height: 100vh;
+
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    
+}
+.inner1{
+    width: 320px;
+    height: 350px;
+    margin: 30px;
+    padding: 20px;
+    
+    background-color: rgb(47, 60, 60);
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgb(6, 6, 53);
+}
+.inner1 >img{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.inner1>h1{
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: bold;
+}
+.inner1 >p{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.inner1 >button{
+    font-weight: bold;
+    width: 180px;
+    height: 50px;
+    margin: 20px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.inner1 >button:hover{
+    background-color: yellow;
+    color: black;
+}
+.inner2{
+    width: 320px;
+    height: 350px;
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(192, 49, 113);
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgb(5, 4, 4);
+}
+.inner2 >img{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.inner2>h1{
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: bold;
+}
+.inner2 >p{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.inner2 >button{
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.inner2 >button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+
+
+.inner3{
+    width: 320px;
+    height: 350px;
+    margin: 30px;
+    padding: 20px;
+    
+    background-color: rgb(47, 60, 60);
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgb(120, 26, 26);
+}
+.inner3 >img{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.inner3>h1{
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: bold;
+}
+.inner3 >p{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.inner3 >button{
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.inner3 >button:hover{
+    background-color: yellow;
+    color: black;
+}
